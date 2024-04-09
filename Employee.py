@@ -14,7 +14,7 @@ class Employee:
         if self.hoursworked <= self.BASE_HOURS:
             pay = self.hoursworked * self.payrate
         else:
-            pay = self.hoursworked * self.BASE_HOURS +    \
+            pay = self.payrate * self.BASE_HOURS +    \
                  (self.hoursworked - self.BASE_HOURS) * 1.5 * self.payrate
         return pay
 
