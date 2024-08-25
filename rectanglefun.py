@@ -7,6 +7,7 @@ def inputLength():
     len = float(input("==> Enter rectangle length (meters): "))
     return len
 
+# Input rectangle width
 def inputWidth():
     wid  = float(input("==> Enter retangle width (meters): "))
     return wid
